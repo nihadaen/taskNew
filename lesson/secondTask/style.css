@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 40vh;
+    height: 60vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.imgTop{
+    position: relative;
+}
+.imgTop img{
+    width: 100%;
+    height: 100%;
+}
+.trending{
+    padding-top: 1vh;
+    padding-left: 0.5vw;
+    position: absolute;
+    width: 6vw;
+    height: 4vh;
+    background-color: white;
+    bottom: 2vh;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+.text p{
+    padding-top: 1vh;
+}
+.text small{
+    color: gray;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 1vh;
+}

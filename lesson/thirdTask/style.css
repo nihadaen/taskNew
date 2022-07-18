@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 90vw;
+    height: 20vh;
+    border: 5px solid black;
+    border-radius: 10%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    position: relative;
+}
+
+.firstYellow{
+    background-color: yellow;
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+}
+
+.secondYellow{
+    background-color: yellow;
+    width: 50vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+}
+
+.thirdYellow{
+    background-color: yellow;
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+}
+
+.firstBlue{
+    width: 15vw;
+    height: 7vh;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+
+.secondBlue{
+    width: 15vw;
+    height: 7vh;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+.thirdBlue{
+    width: 5vw;
+    height: 7vh;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.red{
+    width: 3vw;
+    height: 5vh;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.greenBorder{
+    width: 5vw;
+    height: 8vh;
+    background-color: yellow;
+    position: absolute;
+    top: 1vh;
+    left: 3vw;
+    border: 5px green solid;
+}
